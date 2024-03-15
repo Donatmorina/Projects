@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.restaurant-header {
+    background-color: #7760605e;
+    text-align: center;
+    padding: 20px;
+}
+
+.restaurant-about p,
+.restaurant-deals p,
+.restaurant-dinner p {
+  background-color: #363124; /* Choose the background color you prefer */
+  padding: 20px;
+  border-radius: 10px;
+  display: inline; /* Ensure the background color doesn't span the whole width */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+/* Section Styles */
+.restaurant-about, .restaurant-deals, .restaurant-dinner, .restaurant-tapas, .restaurant-pizza-burger, .restaurant-catering {
+    padding: 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #ededed;
+}
+
+/* Use the custom CSS variable as the background color for .menu-item */
+.menu-item {
+    background-image: url(Checkered_tablecloth_table.jpg);
+    border: 2px solid #130101;
+    padding: 20px;
+    position: relative;
+    margin: 20px;
+    display: inline-block;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+.menu-item p {
+    background-color: #3a2f2fb1; /* Background color for text content */
+    padding: 1px; /* Add padding for better visibility */
+    display: inline; /* Ensure the background color is only behind the text */
+}
+.menu-item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+.menu-description {
+    font-weight: bold;
+    text-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5); /* Adjust shadow properties as needed */
+
+}
+
+.tapas-menu {
+    background-color: #77606084;
+    border: 2px solid #130101;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within each section */
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    margin: 10px; /* Add spacing between sections */
+  }
+  .tapas-menu img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+.tapas-menu:hover{
+    transform: scale(1.05);
+}
+.tapas-menu .section-title{
+    font-weight: bold;
+ }
+.tapas-menu p, ul{
+    background-color: #8f6d6da5; /* Background color for text content */
+    padding: 10px; /* Add padding for better visibility */
+    display: inline; /* Ensure the background color is only behind the text */
+}
+
+.restaurant-pizza-burger {
+    background-color: #77606084;
+    border: 2px solid #130101;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within each section */
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    margin: 10px; /* Add spacing between sections */
+}
+
+.restaurant-pizza-burger img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.restaurant-pizza-burger:hover {
+    transform: scale(1.05);
+}
+
+.restaurant-pizza-burger .section-title {
+    font-weight: bold;
+}
+.restaurant-pizza-burger p {
+    background-color: #77606084; /* Background color for text content */
+    padding: 10px; /* Add padding for better visibility */
+    display: inline; /* Ensure the background color is only behind the text */
+}
+
+
+.restaurant-catering {
+    background-color: #363124;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .restaurant-catering p {
+    margin: 10px 0; /* Add vertical margin between paragraphs */
+  }
+  
+  .restaurant-catering img {
+    margin-top: 20px; /* Add space between the images and the text */
+  }
+  
+
+
+/* Footer Styles */
+.restaurant-footer {
+    background-image: url(Checkered_tablecloth_table.jpg);
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.restaurant-footer p,
+.restaurant-footer h3,
+.opening-hours {
+  background-color: #363124; /* Choose the background color you prefer */
+  padding: 20px;
+  border-radius: 40px;
+  display: inline; /* Ensure the background color doesn't span the whole width */
+  margin: 20px 0; /* Add vertical margin between sections */
+}
+
+.footer-title {
+    font-size: 24px;
+    color: #ededed;
+}
+
+.opening-hours {
+    font-weight: bold;
+}
+
+
+
+
+body {
+    background-image: url('Checkered_backround.jpg'); /* Replace 'background-image.jpg' with the actual image file name */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; /* Set base text color to white */
+    opacity: 0.9; /* Add some opacity to the background image */
+}
+
+
+
+
